@@ -2,10 +2,10 @@ class Contador:#cria o molde contador
     def __init__(self):
         self.valor = 0 #atributo chamado valor
 
-    def incrementar(self):
+    def incrementar(self):#função de incrementar um 
         self.valor += 1
 
-    def resetar(self):
+    def resetar(self):#função de resetar o valor
         self.valor = 0
 
 # Criar uma instância da classe Contador
